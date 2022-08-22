@@ -501,7 +501,31 @@ body{
     opacity: 0.3;
   }
   
+#icons2{
+  padding-left: 520px;
+    /* padding-top: 10px; */
+    margin-top: -300px;
+    margin-left: 300px;
 
+}
+
+.icon2{
+  
+    background-color: orange;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 20px;
+    /* padding-left: 40px; */
+    
+
+}
+#icons2 button{
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  margin: auto;
+}
 
 
 
