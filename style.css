@@ -1,0 +1,510 @@
+body{
+    background-color: black;
+}
+.navbar-nav li a {
+    color: white;
+    margin-left: 20px;
+    
+}
+.navbar-nav{
+    margin-left: 500px;
+}
+.navbar-brand{
+    margin-left: 70px;
+}
+.btn{
+    margin-right: 140px;
+    border-radius: 10%;
+}
+
+
+.hy{
+    display: inline-block;
+    padding: 120px;
+    background-color: black;
+    
+}
+.hy h1{
+    padding: 10px;
+    margin-left: 2px;
+    color: orange;
+}
+.hy h2{
+    color: white;
+}
+#right{
+    float: right;
+    position: absolute;
+    /* text-align: right; */
+    border-radius: 50%;
+
+    /* margin-bottom: 1000px;
+    margin-right: 0px; */
+    right: 100px;
+    top: 150px;
+    background-color: black;
+    
+}
+
+.icon{
+    background-color: orange;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 20px;
+    /* padding-left: 40px; */
+    
+}
+
+#icons{
+    padding-left: 120px;
+    padding-top: -150px;
+    /* display: inline-block; */
+    
+}
+
+#hl{
+    display: inline-block;
+    padding: 120px;
+    background-color: black;
+    
+}
+
+#hl h1{
+    padding: 10px;
+    margin-left: 2px;
+    color: white;
+}
+
+#hl h2{
+    color: orange;
+}
+
+#first{
+    
+    float: right;
+    position: absolute;
+    right: 450px;
+    top: 750px;
+}
+
+#second{
+    
+    float: right;
+    position: absolute;
+    right: 50px;
+    top: 1500px;
+    
+}
+
+#second:hover{
+    transform: translatex(-3in);
+    transition: 2s ease-out;
+}
+#third{
+    
+    float: right;
+    position: absolute;
+    right: 850px;
+    top: 1200px;
+}
+#third:hover{
+    transform: translatex(3in);
+    transition: 2s ease-out;
+}
+
+.card{
+    display: flex;
+
+}
+
+.card-body{
+    box-shadow: 3px 3px 12px 2px rgba(black, 0.6);
+
+    
+    transition: 0.2s;
+}
+#helo{
+    display: flex;
+    flex-direction: row;
+    margin-top:1000px; 
+    margin-left: 600px; 
+    /* border-radius: 50%;
+     background-color: white;
+      color: orange;  */
+      /* height: 50px; 
+      width: 50px */
+ } 
+ #helo button{
+    background-color: white;
+    color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+ }
+ #helo div {
+   color: orange;
+ }
+ 
+
+ #top{
+    float: right;
+    position: absolute;
+    /* text-align: right; */
+    border-radius: 10%;
+
+    /* margin-bottom: 1000px;
+    margin-right: 0px; */
+    right: 100px;
+    top: 2250px;
+    background-color: black;
+ }
+
+ #project{
+    margin-top:200px; 
+    /* margin-left: 600px;  */
+    text-align: center;
+ }
+ #project h2{
+    color: white;
+ }
+ #project h1{
+    color: orange;
+ }
+
+ #project-card{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding: 100px;
+    justify-content: space-evenly;
+ }
+
+ #project-card button{
+
+    box-shadow: 3px 3px 12px 2px rgba(orange, 0.6);
+    height: 50px;
+    border-radius: 20%;
+    /* width: 50px; */
+    
+ }
+
+ #project-card div{
+    background-color:darkslategrey;
+    color: white;
+ }
+ #project-card div:hover{
+   transform: translateY(-12px);
+   transition-timing-function: ease-in;
+ }
+
+ #clients{
+    margin-left: 300px;
+    color: white;
+    font-size:xx-large;
+ }
+ #clients span{
+   
+    color: orange;
+    
+ }
+
+ #clients2{
+    margin-left: 500px;
+    padding: 25px;
+ }
+ #clients2 img{
+    height: 110px;
+    width: 150px;
+    border-radius: 80%;
+    margin-left: 200px;
+    padding: 10px;
+    /* text-align: center; */
+ }
+ #clients2 h5{
+   color: orange;
+ }
+ #clients2 p{
+   color: white;
+   text-align: center;
+ }
+ #clients2 button{
+   color: black;
+   background-color: white;
+   height: 70px;
+   border-radius: 46%;
+   margin-left: 200px;
+   padding-top: 20px;
+ }
+ .card-client{
+    background-color: rgb(44, 42, 42);
+    border: 4px solid white;
+    border-radius: 3%;
+ }
+
+ #contact{
+    margin-left: 300px;
+    padding: 200px;
+    
+ }
+ #fh1{
+    color: white;
+ }
+ #fh2{
+    color: orange;
+ }
+
+ #contact input{
+    border: 2px solid orange;
+ }
+ #contact textarea{
+    border: 2px solid orange;
+ }
+ #contact button{
+    color: orange;
+    border-radius: 20%;
+ }
+ #contact form{
+   padding: 30px;
+ }
+
+ #icons button{
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    margin: auto;
+ }
+
+/* #foot{
+
+    height: 100px;
+    width: 100%;
+    background-image: url("https://st2.depositphotos.com/1000236/5886/v/950/depositphotos_58860117-stock-illustration-orange-background.jpg"); 
+    background-color: orange;
+    
+} */
+
+
+/* body {
+    margin: 0;
+    overflow: hidden;
+  } */
+  #octocat {
+    height: 300px;
+    width: 200px;
+    background: url(https://codinhood.com/static/9a146dac647e7129fa173acc0b0d437f/299c1/octocat.png) left center;
+    animation: animateSprite 15s steps(1) infinite, swim 15s ease-in-out infinite;
+    position: absolute;
+    right: -200px;
+    top: 50%;
+    margin-top: -150px;
+    z-index: 100;
+  }
+  
+  
+  @keyframes animateSprite {
+    0% {
+      background-position: -600px; /* Starting position moving left sprite */
+    }
+    20% {
+      background-position: 0px; /* Straight on sprite */
+    }
+    25% {
+      background-position: -200px; /* Moving up sprite */
+    }
+    35% {
+      background-position: -400px; /* Moving right sprite */
+    }
+    40% {
+      background-position: -400px;
+    }
+    50% {
+      background-position: -200px;  /* Moving up sprite */
+    }
+    60% {
+      background-position: -0px; /* Straight on sprite */
+    }
+    67% {
+      background-position: -600px; /* Moving up sprite */
+    }
+  
+    100% {
+      background-position: -600px;
+    }
+  }
+  
+  @keyframes swim {
+    0% {
+      transform: translate(0, 0); /* Starting position */
+    }
+    20% {
+      transform: translate(calc(-50vw - 100px), 0); /* Animate to center of screen */
+    }
+    25% {
+      transform: translate(calc(-50vw - 100px), 0); /* Stay at the center for 1 second */
+    }
+    35% {
+      transform: translate(calc(-50vw - 100px), -20vh); /* Animate up for 2 seconds */
+    }
+    50% {
+      transform: translate(-25vw, 15vh); /* Animate bottom right for 3 seconds */
+    }
+    60% {
+      transform: translate(-25vw, -20vh); /* Animate up at right of the screen */
+    }
+    67% {
+      transform: translate(-25vw, -20vh);
+    }
+  
+    100% {
+      transform: translate(calc(-100vw - 300px), 0); /* Animate past left past the screen */
+    }
+  }
+  .ocean {
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    margin-bottom: 0px; !important
+    /* background-image: linear-gradient(0deg, #182848, #2980b9) */
+    background-image: url('https://images.unsplash.com/photo-1616941351479-0072624fca9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+  }
+  
+  .bubble {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    bottom: -30px;
+    opacity: 0.2;
+    animation: bubble 15s ease-in-out infinite,
+      sideWays 4s ease-in-out infinite alternate;
+  }
+  
+  @keyframes bubble {
+    0% {
+      transform: translateY(0%);
+      opacity: 0.06;
+    }
+    100% {
+      transform: translateY(-120vh);
+    }
+  }
+  
+  @keyframes sideWays {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: 200px;
+    }
+  }
+  
+  .bubble--1 {
+    left: 10%;
+    animation-delay: 0.5s;
+    animation-duration: 16s;
+    opacity: 0.2;
+  }
+  
+  .bubble--2 {
+    width: 15px;
+    height: 15px;
+    left: 40%;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    opacity: 0.1;
+  }
+  
+  .bubble--3 {
+    width: 10px;
+    height: 10px;
+    left: 30%;
+    animation-delay: 5s;
+    animation-duration: 20s;
+    opacity: 0.3;
+  }
+  
+  .bubble--4 {
+    width: 25px;
+    height: 25px;
+    left: 40%;
+    animation-delay: 8s;
+    animation-duration: 17s;
+    opacity: 0.2;
+  }
+  
+  .bubble--5 {
+    width: 30px;
+    height: 30px;
+    left: 60%;
+    animation-delay: 10s;
+    animation-duration: 15s;
+    opacity: 0.1;
+  }
+  
+  .bubble--6 {
+    width: 10px;
+    height: 10px;
+    left: 80%;
+    animation-delay: 3s;
+    animation-duration: 30s;
+    opacity: 0.4;
+  }
+  
+  .bubble--7 {
+    width: 15px;
+    height: 15px;
+    left: 90%;
+    animation-delay: -7s;
+    animation-duration: 25s;
+    opacity: 0.3;
+  }
+  
+  .bubble--9 {
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    bottom: 30px;
+    animation-delay: -5s;
+    animation-duration: 19s;
+    opacity: 0.2;
+  }
+  
+  .bubble--10 {
+    width: 40px;
+    height: 40px;
+    left: 30%;
+    bottom: 30px;
+    animation-delay: -21s;
+    animation-duration: 16s;
+    opacity: 0.3;
+  }
+  
+  .bubble--11 {
+    width: 30px;
+    height: 30px;
+    left: 60%;
+    bottom: 30px;
+    animation-delay: -13.75s;
+    animation-duration: 20s;
+    opacity: 0.3;
+  }
+  
+  .bubble--11 {
+    width: 25px;
+    height: 25px;
+    left: 90%;
+    bottom: 30px;
+    animation-delay: -10.5s;
+    animation-duration: 19s;
+    opacity: 0.3;
+  }
+  
+
+
+
+
+
+
+
