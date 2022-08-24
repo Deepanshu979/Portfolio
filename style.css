@@ -637,7 +637,7 @@ body {
 }
 
 .navbar a:hover {
-  color: orange;
+  color: black;
 }
 
 .navbar-brand:hover {
@@ -645,5 +645,5 @@ body {
 }
 
 #cd:hover {
-  color: orange !important;
+  color: black !important;
 }
